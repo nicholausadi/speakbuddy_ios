@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F006A4E22D1E7DBC0045BED1 /* speakbuddy_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4E12D1E7DBC0045BED1 /* speakbuddy_iosApp.swift */; };
-		F006A4E42D1E7DBC0045BED1 /* SubscriptionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4E32D1E7DBC0045BED1 /* SubscriptionPage.swift */; };
 		F006A4E62D1E7DBD0045BED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F006A4E52D1E7DBD0045BED1 /* Assets.xcassets */; };
 		F006A4EA2D1E7DBD0045BED1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F006A4E92D1E7DBD0045BED1 /* Preview Assets.xcassets */; };
 		F006A4F42D1E7DBD0045BED1 /* speakbuddy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4F32D1E7DBD0045BED1 /* speakbuddy_iosTests.swift */; };
 		F006A4FE2D1E7DBD0045BED1 /* speakbuddy_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4FD2D1E7DBD0045BED1 /* speakbuddy_iosUITests.swift */; };
 		F006A5002D1E7DBD0045BED1 /* speakbuddy_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4FF2D1E7DBD0045BED1 /* speakbuddy_iosUITestsLaunchTests.swift */; };
 		F0A8D5DB2D1EF60B00D662C4 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5DA2D1EF60B00D662C4 /* BarView.swift */; };
+		F0A8D5E32D1FAB0D00D662C4 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5E22D1FAB0D00D662C4 /* Endpoints.swift */; };
+		F0A8D5E62D1FAC3800D662C4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F0A8D5E52D1FAC3800D662C4 /* Alamofire */; };
+		F0A8D5E82D1FAD3900D662C4 /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5E72D1FAD3900D662C4 /* SubscriptionViewModel.swift */; };
+		F0A8D5EB2D1FAD8F00D662C4 /* SubscriptionStatusParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5EA2D1FAD8F00D662C4 /* SubscriptionStatusParams.swift */; };
+		F0A8D5ED2D1FADBC00D662C4 /* SubscriptionStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5EC2D1FADBC00D662C4 /* SubscriptionStatusResponse.swift */; };
+		F0A8D5F02D1FAE6A00D662C4 /* CodableWrappers in Frameworks */ = {isa = PBXBuildFile; productRef = F0A8D5EF2D1FAE6A00D662C4 /* CodableWrappers */; };
+		F0A8D5F62D1FAF7300D662C4 /* PurchaseSubscriptionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5F52D1FAF7300D662C4 /* PurchaseSubscriptionParams.swift */; };
+		F0A8D5F82D1FAF7A00D662C4 /* PurchaseSubscriptionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5F72D1FAF7A00D662C4 /* PurchaseSubscriptionResponse.swift */; };
+		F0A8D5FB2D1FB08800D662C4 /* get_subscription_status_response.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A8D5FA2D1FB08800D662C4 /* get_subscription_status_response.json */; };
+		F0A8D5FD2D1FB0E100D662C4 /* purchase_subscription_response.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A8D5FC2D1FB0E100D662C4 /* purchase_subscription_response.json */; };
+		F0A8D6002D1FB17D00D662C4 /* SubscriptionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5FF2D1FB17D00D662C4 /* SubscriptionRepository.swift */; };
+		F0A8D60C2D1FE86E00D662C4 /* SubscriptionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D60B2D1FE86E00D662C4 /* SubscriptionData.swift */; };
+		F0A8D60F2D1FEEB200D662C4 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F0A8D60E2D1FEEB200D662C4 /* OHHTTPStubsSwift */; };
+		F0A8D6112D1FFB8D00D662C4 /* SubscriptionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D6102D1FFB8D00D662C4 /* SubscriptionPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +50,6 @@
 /* Begin PBXFileReference section */
 		F006A4DE2D1E7DBC0045BED1 /* speakbuddy-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "speakbuddy-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F006A4E12D1E7DBC0045BED1 /* speakbuddy_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakbuddy_iosApp.swift; sourceTree = "<group>"; };
-		F006A4E32D1E7DBC0045BED1 /* SubscriptionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPage.swift; sourceTree = "<group>"; };
 		F006A4E52D1E7DBD0045BED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F006A4E72D1E7DBD0045BED1 /* speakbuddy_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speakbuddy_ios.entitlements; sourceTree = "<group>"; };
 		F006A4E92D1E7DBD0045BED1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +59,17 @@
 		F006A4FD2D1E7DBD0045BED1 /* speakbuddy_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakbuddy_iosUITests.swift; sourceTree = "<group>"; };
 		F006A4FF2D1E7DBD0045BED1 /* speakbuddy_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakbuddy_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F0A8D5DA2D1EF60B00D662C4 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		F0A8D5E22D1FAB0D00D662C4 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		F0A8D5E72D1FAD3900D662C4 /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
+		F0A8D5EA2D1FAD8F00D662C4 /* SubscriptionStatusParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStatusParams.swift; sourceTree = "<group>"; };
+		F0A8D5EC2D1FADBC00D662C4 /* SubscriptionStatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStatusResponse.swift; sourceTree = "<group>"; };
+		F0A8D5F52D1FAF7300D662C4 /* PurchaseSubscriptionParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionParams.swift; sourceTree = "<group>"; };
+		F0A8D5F72D1FAF7A00D662C4 /* PurchaseSubscriptionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionResponse.swift; sourceTree = "<group>"; };
+		F0A8D5FA2D1FB08800D662C4 /* get_subscription_status_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_subscription_status_response.json; sourceTree = "<group>"; };
+		F0A8D5FC2D1FB0E100D662C4 /* purchase_subscription_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = purchase_subscription_response.json; sourceTree = "<group>"; };
+		F0A8D5FF2D1FB17D00D662C4 /* SubscriptionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionRepository.swift; sourceTree = "<group>"; };
+		F0A8D60B2D1FE86E00D662C4 /* SubscriptionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionData.swift; sourceTree = "<group>"; };
+		F0A8D6102D1FFB8D00D662C4 /* SubscriptionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A8D60F2D1FEEB200D662C4 /* OHHTTPStubsSwift in Frameworks */,
+				F0A8D5E62D1FAC3800D662C4 /* Alamofire in Frameworks */,
+				F0A8D5F02D1FAE6A00D662C4 /* CodableWrappers in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +123,17 @@
 		F006A4E02D1E7DBC0045BED1 /* speakbuddy-ios */ = {
 			isa = PBXGroup;
 			children = (
-				F00F49C82D2051B300FDACEA /* Pages */,
+				F0A8D5DC2D1FA9D500D662C4 /* Pages */,
+				F0A8D5DD2D1FAA1300D662C4 /* ViewModels */,
+				F0A8D5FE2D1FB15E00D662C4 /* Repositories */,
 				F05368B72D1E887E00199ED7 /* Components */,
+				F0A8D5E92D1FAD7900D662C4 /* Models */,
+				F0A8D5E12D1FAAFB00D662C4 /* Services */,
 				F006A4E12D1E7DBC0045BED1 /* speakbuddy_iosApp.swift */,
 				F006A4E52D1E7DBD0045BED1 /* Assets.xcassets */,
 				F006A4E72D1E7DBD0045BED1 /* speakbuddy_ios.entitlements */,
 				F006A4E82D1E7DBD0045BED1 /* Preview Content */,
+				F0A8D5F92D1FB04000D662C4 /* MockResponse */,
 			);
 			path = "speakbuddy-ios";
 			sourceTree = "<group>";
@@ -132,20 +163,81 @@
 			path = "speakbuddy-iosUITests";
 			sourceTree = "<group>";
 		};
-		F00F49C82D2051B300FDACEA /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				F006A4E32D1E7DBC0045BED1 /* SubscriptionPage.swift */,
-			);
-			path = Pages;
-			sourceTree = "<group>";
-		};
 		F05368B72D1E887E00199ED7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				F0A8D5DA2D1EF60B00D662C4 /* BarView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		F0A8D5DC2D1FA9D500D662C4 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D6102D1FFB8D00D662C4 /* SubscriptionPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		F0A8D5DD2D1FAA1300D662C4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D5E72D1FAD3900D662C4 /* SubscriptionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F0A8D5E12D1FAAFB00D662C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D5E22D1FAB0D00D662C4 /* Endpoints.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F0A8D5E92D1FAD7900D662C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D60B2D1FE86E00D662C4 /* SubscriptionData.swift */,
+				F0A8D5F12D1FAECB00D662C4 /* SubscriptionStatus */,
+				F0A8D5F42D1FAF5300D662C4 /* PurchaseSubscription */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F0A8D5F12D1FAECB00D662C4 /* SubscriptionStatus */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D5EA2D1FAD8F00D662C4 /* SubscriptionStatusParams.swift */,
+				F0A8D5EC2D1FADBC00D662C4 /* SubscriptionStatusResponse.swift */,
+			);
+			path = SubscriptionStatus;
+			sourceTree = "<group>";
+		};
+		F0A8D5F42D1FAF5300D662C4 /* PurchaseSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D5F52D1FAF7300D662C4 /* PurchaseSubscriptionParams.swift */,
+				F0A8D5F72D1FAF7A00D662C4 /* PurchaseSubscriptionResponse.swift */,
+			);
+			path = PurchaseSubscription;
+			sourceTree = "<group>";
+		};
+		F0A8D5F92D1FB04000D662C4 /* MockResponse */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D5FA2D1FB08800D662C4 /* get_subscription_status_response.json */,
+				F0A8D5FC2D1FB0E100D662C4 /* purchase_subscription_response.json */,
+			);
+			path = MockResponse;
+			sourceTree = "<group>";
+		};
+		F0A8D5FE2D1FB15E00D662C4 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D5FF2D1FB17D00D662C4 /* SubscriptionRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +256,11 @@
 			dependencies = (
 			);
 			name = "speakbuddy-ios";
+			packageProductDependencies = (
+				F0A8D5E52D1FAC3800D662C4 /* Alamofire */,
+				F0A8D5EF2D1FAE6A00D662C4 /* CodableWrappers */,
+				F0A8D60E2D1FEEB200D662C4 /* OHHTTPStubsSwift */,
+			);
 			productName = "speakbuddy-ios";
 			productReference = F006A4DE2D1E7DBC0045BED1 /* speakbuddy-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -236,6 +333,11 @@
 				Base,
 			);
 			mainGroup = F006A4D52D1E7DBC0045BED1;
+			packageReferences = (
+				F0A8D5E42D1FAC3800D662C4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F0A8D5EE2D1FAE6A00D662C4 /* XCRemoteSwiftPackageReference "CodableWrappers" */,
+				F0A8D60D2D1FEEB200D662C4 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+			);
 			productRefGroup = F006A4DF2D1E7DBC0045BED1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,8 +354,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A8D5FD2D1FB0E100D662C4 /* purchase_subscription_response.json in Resources */,
 				F006A4EA2D1E7DBD0045BED1 /* Preview Assets.xcassets in Resources */,
 				F006A4E62D1E7DBD0045BED1 /* Assets.xcassets in Resources */,
+				F0A8D5FB2D1FB08800D662C4 /* get_subscription_status_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +382,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A8D5F82D1FAF7A00D662C4 /* PurchaseSubscriptionResponse.swift in Sources */,
 				F0A8D5DB2D1EF60B00D662C4 /* BarView.swift in Sources */,
-				F006A4E42D1E7DBC0045BED1 /* SubscriptionPage.swift in Sources */,
+				F0A8D6112D1FFB8D00D662C4 /* SubscriptionPage.swift in Sources */,
+				F0A8D5EB2D1FAD8F00D662C4 /* SubscriptionStatusParams.swift in Sources */,
+				F0A8D5E82D1FAD3900D662C4 /* SubscriptionViewModel.swift in Sources */,
+				F0A8D60C2D1FE86E00D662C4 /* SubscriptionData.swift in Sources */,
+				F0A8D5ED2D1FADBC00D662C4 /* SubscriptionStatusResponse.swift in Sources */,
+				F0A8D6002D1FB17D00D662C4 /* SubscriptionRepository.swift in Sources */,
+				F0A8D5E32D1FAB0D00D662C4 /* Endpoints.swift in Sources */,
+				F0A8D5F62D1FAF7300D662C4 /* PurchaseSubscriptionParams.swift in Sources */,
 				F006A4E22D1E7DBC0045BED1 /* speakbuddy_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,7 +634,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholausadi.speakbuddy-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -545,7 +658,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholausadi.speakbuddy-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -567,7 +681,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholausadi.speakbuddy-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -589,7 +704,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholausadi.speakbuddy-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -637,6 +753,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0A8D5E42D1FAC3800D662C4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		F0A8D5EE2D1FAE6A00D662C4 /* XCRemoteSwiftPackageReference "CodableWrappers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GottaGetSwifty/CodableWrappers";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+		F0A8D60D2D1FEEB200D662C4 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0A8D5E52D1FAC3800D662C4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0A8D5E42D1FAC3800D662C4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F0A8D5EF2D1FAE6A00D662C4 /* CodableWrappers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0A8D5EE2D1FAE6A00D662C4 /* XCRemoteSwiftPackageReference "CodableWrappers" */;
+			productName = CodableWrappers;
+		};
+		F0A8D60E2D1FEEB200D662C4 /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0A8D60D2D1FEEB200D662C4 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F006A4D62D1E7DBC0045BED1 /* Project object */;
 }

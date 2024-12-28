@@ -1,0 +1,10 @@
+{
+    "status": "OK",
+    "message": "OK",
+    "data": {
+        "status": "SUBSCRIBED",
+        "price_monthly": 2000.0,
+        "price_yearly": 20000.0,
+        "currency": "￥"
+    }
+}
