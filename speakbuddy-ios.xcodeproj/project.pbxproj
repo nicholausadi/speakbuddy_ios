@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F006A4E22D1E7DBC0045BED1 /* speakbuddy_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4E12D1E7DBC0045BED1 /* speakbuddy_iosApp.swift */; };
-		F006A4E42D1E7DBC0045BED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4E32D1E7DBC0045BED1 /* ContentView.swift */; };
+		F006A4E42D1E7DBC0045BED1 /* SubscriptionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4E32D1E7DBC0045BED1 /* SubscriptionPage.swift */; };
 		F006A4E62D1E7DBD0045BED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F006A4E52D1E7DBD0045BED1 /* Assets.xcassets */; };
 		F006A4EA2D1E7DBD0045BED1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F006A4E92D1E7DBD0045BED1 /* Preview Assets.xcassets */; };
 		F006A4F42D1E7DBD0045BED1 /* speakbuddy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4F32D1E7DBD0045BED1 /* speakbuddy_iosTests.swift */; };
 		F006A4FE2D1E7DBD0045BED1 /* speakbuddy_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4FD2D1E7DBD0045BED1 /* speakbuddy_iosUITests.swift */; };
 		F006A5002D1E7DBD0045BED1 /* speakbuddy_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006A4FF2D1E7DBD0045BED1 /* speakbuddy_iosUITestsLaunchTests.swift */; };
+		F0A8D5DB2D1EF60B00D662C4 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8D5DA2D1EF60B00D662C4 /* BarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		F006A4DE2D1E7DBC0045BED1 /* speakbuddy-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "speakbuddy-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F006A4E12D1E7DBC0045BED1 /* speakbuddy_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakbuddy_iosApp.swift; sourceTree = "<group>"; };
-		F006A4E32D1E7DBC0045BED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F006A4E32D1E7DBC0045BED1 /* SubscriptionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPage.swift; sourceTree = "<group>"; };
 		F006A4E52D1E7DBD0045BED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F006A4E72D1E7DBD0045BED1 /* speakbuddy_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speakbuddy_ios.entitlements; sourceTree = "<group>"; };
 		F006A4E92D1E7DBD0045BED1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		F006A4F92D1E7DBD0045BED1 /* speakbuddy-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "speakbuddy-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F006A4FD2D1E7DBD0045BED1 /* speakbuddy_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakbuddy_iosUITests.swift; sourceTree = "<group>"; };
 		F006A4FF2D1E7DBD0045BED1 /* speakbuddy_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakbuddy_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0A8D5DA2D1EF60B00D662C4 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 		F006A4E02D1E7DBC0045BED1 /* speakbuddy-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F00F49C82D2051B300FDACEA /* Pages */,
+				F05368B72D1E887E00199ED7 /* Components */,
 				F006A4E12D1E7DBC0045BED1 /* speakbuddy_iosApp.swift */,
-				F006A4E32D1E7DBC0045BED1 /* ContentView.swift */,
 				F006A4E52D1E7DBD0045BED1 /* Assets.xcassets */,
 				F006A4E72D1E7DBD0045BED1 /* speakbuddy_ios.entitlements */,
 				F006A4E82D1E7DBD0045BED1 /* Preview Content */,
@@ -127,6 +130,22 @@
 				F006A4FF2D1E7DBD0045BED1 /* speakbuddy_iosUITestsLaunchTests.swift */,
 			);
 			path = "speakbuddy-iosUITests";
+			sourceTree = "<group>";
+		};
+		F00F49C82D2051B300FDACEA /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				F006A4E32D1E7DBC0045BED1 /* SubscriptionPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		F05368B72D1E887E00199ED7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8D5DA2D1EF60B00D662C4 /* BarView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F006A4E42D1E7DBC0045BED1 /* ContentView.swift in Sources */,
+				F0A8D5DB2D1EF60B00D662C4 /* BarView.swift in Sources */,
+				F006A4E42D1E7DBC0045BED1 /* SubscriptionPage.swift in Sources */,
 				F006A4E22D1E7DBC0045BED1 /* speakbuddy_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +452,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -442,7 +461,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholausadi.speakbuddy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,8 +490,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -480,7 +499,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholausadi.speakbuddy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
